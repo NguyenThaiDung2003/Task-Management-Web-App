@@ -1,4 +1,4 @@
-import { prisma } from './db.js'; // Nhớ thêm đuôi .js khi dùng ESM
+import { prisma } from './src/config/database.js'; // Nhớ thêm đuôi .js khi dùng ESM
 
 async function main() {
   try {

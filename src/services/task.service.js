@@ -51,5 +51,5 @@ export const getTasks = async (query) => {
 };
 
 export const updateTaskStatus = async (taskId, status) => {
-  return await taskModel.updateStatus(taskId, status);
+  return await taskModel.updateStatus(+taskId, status);
 };
